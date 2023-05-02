@@ -13,6 +13,12 @@ enableChalkboard: false
 
 ---
 
+#### Exemplo
+
+![-](./images/fluxo.png){width=100%}
+
+---
+
 ### Race Condition
 
 ![hash](./images/capa.svg){width=35%}
