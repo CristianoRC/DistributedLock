@@ -17,8 +17,26 @@ enableChalkboard: false
 
 ![-](./images/fluxo.png){width=100%}
 
+<img>
+
+---
+
+![-](./images/fluxo-detalhado.png){width=100%}
+
+---
+
+![-](./images/1-message.png){width=100%}
+
+---
+
+![-](./images/2-saldo.png){width=100%}
+
+---
+
+![-](./images/3-saldo.png){width=100%}
+
 ---
 
 ### Race Condition
 
-![hash](./images/capa.svg){width=35%}
+![-](./images/race.svg){width=70%}
