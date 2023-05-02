@@ -103,8 +103,16 @@ enableChalkboard: false
 
 ### Escala horizontal
 
+![-](./images/escala.png)
+
 ---
 
 ### Distributed Lock
+
+##### DLM - Distributed Lock Manager
+
+---
+
+![-](./images/redis.png)
 
 ---
