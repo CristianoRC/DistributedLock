@@ -91,9 +91,13 @@ enableChalkboard: false
 
 ### Memória RAM
 
+![-](./images/lock-csharp.png){width=100%}
+
 ---
 
 ### Mutex
+
+![-](./images/mutex.png){width=80%}
 
 ---
 
