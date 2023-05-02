@@ -37,6 +37,70 @@ enableChalkboard: false
 
 ---
 
+![-](./images/race.png){width=100%}
+
+---
+
 ### Race Condition
 
 ![-](./images/race.svg){width=70%}
+
+---
+
+![-](./images/1-race.png){width=75%}
+
+---
+
+![-](./images/2-race.png){width=70%}
+
+---
+
+![-](./images/3-race.png){width=80%}
+
+---
+
+![-](./images/4-race.png){width=80%}
+
+---
+
+![-](./images/lost-update.png){width=58%}
+
+---
+
+### Como Resolver❓
+
+---
+
+### Lock
+
+# 🔒
+
+---
+
+![-](./images/lock.png){width=50%}
+
+---
+
+![-](./images/lock-especifico.png){width=50%}
+
+---
+
+### Onde é feito Lock?
+
+---
+
+### Memória RAM
+
+---
+
+### Mutex
+
+---
+
+### Escala horizontal
+
+---
+
+### Distributed Lock
+
+---
