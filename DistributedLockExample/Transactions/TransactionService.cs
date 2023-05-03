@@ -24,7 +24,7 @@ public class TransactionService : ITransactionService
             if (accountTransactionLocked) throw new TransactionLockException(transaction);
 
             //"Create Transaction"
-            await Task.Delay(TimeSpan.FromSeconds(7));
+            await Task.Delay(TimeSpan.FromSeconds(10));
         }
         finally
         {

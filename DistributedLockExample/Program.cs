@@ -18,14 +18,15 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddScoped<ITransactionService, TransactionService>();
-builder.Services.AddSingleton<IConnectionMultiplexer>(sp => ConnectionMultiplexer.Connect("localhost"));
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+{
+    return ConnectionMultiplexer.Connect(sp.GetService<IConfiguration>()["redis"]);
+});
 
 var app = builder.Build();
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//Swagger não esta só em dev. para facilitar testes
+app.UseSwaggerUI();
+app.UseSwagger();
 
 app.UseCors("example");
 
