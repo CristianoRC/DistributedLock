@@ -116,3 +116,9 @@ enableChalkboard: false
 ![-](./images/redis.png)
 
 ---
+
+### Optimistic Locking
+
+## vs
+
+### Pessimistic Locking
